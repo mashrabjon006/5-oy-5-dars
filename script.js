@@ -4,13 +4,13 @@ function kotta(fullName) {
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
 }
-console.log(kotta("john doe"))
+console.log(kotta("ben doe"))
 
 // 2.
 function strin(str) {
     return str.split('').reverse().join('')
 }
-console.log(stin("hello"))
+console.log(strin("hello"))
 
 // 3.//
 function funct(numbers) {
